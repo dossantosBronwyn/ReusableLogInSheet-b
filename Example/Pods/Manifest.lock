@@ -1,0 +1,16 @@
+PODS:
+  - LoginSheetComponent (0.1.0)
+
+DEPENDENCIES:
+  - LoginSheetComponent (from `../`)
+
+EXTERNAL SOURCES:
+  LoginSheetComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoginSheetComponent: 024bc239fb06d346f7e528c989f3aba6ff72ffd5
+
+PODFILE CHECKSUM: d26c2c192446639e5dccb8a1c7e4f584955f5c10
+
+COCOAPODS: 1.11.3

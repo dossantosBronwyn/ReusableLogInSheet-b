@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LoginSheetComponent_Example' do
+  pod 'LoginSheetComponent', :path => '../'
+
+  target 'LoginSheetComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
