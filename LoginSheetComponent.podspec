@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'A simple login sheet component that uses swiftUI'
 
-  s.homepage         = 'https://github.com/dossantosBronwyn/LoginSheetComponent'
+  s.homepage         = 'https://github.com/dossantosBronwyn/ReusableLogInSheet-b'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dossantosBronwyn' => '99259510+dossantosBronwyn@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/dossantosBronwyn/LoginSheetComponent.git', :tag => s.version.to_s }
+  s.authors          = { 'dossantosBronwyn' => '99259510+dossantosBronwyn@users.noreply.github.com' }
+  s.source           = { :git => 'https://github.com/dossantosBronwyn/ReusableLogInSheet-b.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '16.0'
