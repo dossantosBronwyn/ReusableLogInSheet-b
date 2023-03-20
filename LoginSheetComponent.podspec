@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoginSheetComponent'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A simple login sheet component'
 
  This description is used to generate tags and improve search results.
