@@ -13,8 +13,8 @@
 		49964B02F508AD1E6E4751C222F4D3DA /* Pods-LoginSheetComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1981C3B86EA0B4655583C932E590019F /* Pods-LoginSheetComponent_Tests-dummy.m */; };
 		5DB4DB9D735A6B2712A37D8589D53848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8A1220A03C0B2742C41A504BCB782F44 /* LoginSheetComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDCAB09FF526A34A4447B9160CA359E /* LoginSheetComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B283ABE30BC834027410E7B85FA8D74 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C94BE36D3208A2380BBBA99EF29B9 /* ReplaceMe.swift */; };
 		ACDCBB0C0E55805C30CA3A8CFF3E95A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AD51F03D29C3387600310AD6 /* loginSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD51F03C29C3387500310AD6 /* loginSheet.swift */; };
 		B89FF4847E21C06554530D2F8EB5F413 /* Pods-LoginSheetComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D73726A7AC88AE1FBB189B310D5F7F4 /* Pods-LoginSheetComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C297A037A7EE8B29827095E3955D2D53 /* Pods-LoginSheetComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8994DA4858302E83C023E001D573E43 /* Pods-LoginSheetComponent_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		175DA6DFC7CCBD0F8315FE40FFE6BF76 /* LoginSheetComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoginSheetComponent; path = LoginSheetComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		175DA6DFC7CCBD0F8315FE40FFE6BF76 /* LoginSheetComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginSheetComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1981C3B86EA0B4655583C932E590019F /* Pods-LoginSheetComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginSheetComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C7DAD2C02BBAE0FA2B912FBB46B167A /* Pods-LoginSheetComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginSheetComponent_Example.modulemap"; sourceTree = "<group>"; };
 		1F93C2BD485FD8498F1BA547832FC5E8 /* LoginSheetComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginSheetComponent.debug.xcconfig; sourceTree = "<group>"; };
@@ -53,19 +53,19 @@
 		850B1627A7C1CBF70925BB5F010F16ED /* Pods-LoginSheetComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginSheetComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		857617CC73A5390E6D3BDC6382925A29 /* LoginSheetComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginSheetComponent.release.xcconfig; sourceTree = "<group>"; };
 		8D73726A7AC88AE1FBB189B310D5F7F4 /* Pods-LoginSheetComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginSheetComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8DC4228C521D684471F24C205A3F14A3 /* LoginSheetComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LoginSheetComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		942C94BE36D3208A2380BBBA99EF29B9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LoginSheetComponent/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8DC4228C521D684471F24C205A3F14A3 /* LoginSheetComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LoginSheetComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		997C652759EDEA69CA4DC17A28B0BB52 /* Pods-LoginSheetComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginSheetComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D3F2D635E743ED49B97F840810083E6 /* Pods-LoginSheetComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginSheetComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AACED75A3C6560AD91DA82FA64C4C56A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AACED75A3C6560AD91DA82FA64C4C56A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AD51F03C29C3387500310AD6 /* loginSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginSheet.swift; sourceTree = "<group>"; };
 		AE0815D980FC6E3E6DD9A23344363239 /* Pods-LoginSheetComponent_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginSheetComponent_Example"; path = Pods_LoginSheetComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3227FF08F9AF6301BE18F6D93480EE /* LoginSheetComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginSheetComponent-prefix.pch"; sourceTree = "<group>"; };
 		BD1219234A67C9ECFF2E3751B2C37EB2 /* Pods-LoginSheetComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginSheetComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C687530DEEF8EB3C962EE1E123E8581A /* Pods-LoginSheetComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginSheetComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C77C2EA3F726E5318D83E822689BE647 /* Pods-LoginSheetComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginSheetComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8994DA4858302E83C023E001D573E43 /* Pods-LoginSheetComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginSheetComponent_Example-dummy.m"; sourceTree = "<group>"; };
-		E4AA28B75D23718A0A56807CDA037857 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4AA28B75D23718A0A56807CDA037857 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F32F7C10D662CB94054571F82F693A9B /* Pods-LoginSheetComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginSheetComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F42E47862024793B20661B68C3C21F85 /* Pods-LoginSheetComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginSheetComponent_Tests-Info.plist"; sourceTree = "<group>"; };
 		F68050E9754FC397BB7F77B9D4DE4BEC /* LoginSheetComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginSheetComponent.modulemap; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		3FB03175006A4D7288D8DA1BB1FDFE83 /* LoginSheetComponent */ = {
 			isa = PBXGroup;
 			children = (
-				942C94BE36D3208A2380BBBA99EF29B9 /* ReplaceMe.swift */,
+				AD51F03C29C3387500310AD6 /* loginSheet.swift */,
 				1E3C5B271328F07D190540B503E16158 /* Pod */,
 				0D634407B1387E3113CB690DFADAF43F /* Support Files */,
 			);
@@ -156,7 +156,7 @@
 		519EF0A7456E6A905F3A5ADDF4C5C910 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				175DA6DFC7CCBD0F8315FE40FFE6BF76 /* LoginSheetComponent */,
+				175DA6DFC7CCBD0F8315FE40FFE6BF76 /* LoginSheetComponent.framework */,
 				AE0815D980FC6E3E6DD9A23344363239 /* Pods-LoginSheetComponent_Example */,
 				F6F6B13E069440455234EFD67DB69B2F /* Pods-LoginSheetComponent_Tests */,
 			);
@@ -306,7 +306,7 @@
 			);
 			name = LoginSheetComponent;
 			productName = LoginSheetComponent;
-			productReference = 175DA6DFC7CCBD0F8315FE40FFE6BF76 /* LoginSheetComponent */;
+			productReference = 175DA6DFC7CCBD0F8315FE40FFE6BF76 /* LoginSheetComponent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9BA1FEAFADFEFA415376351F419C4CB2 = {
+						DevelopmentTeam = 773U2QNPAW;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,7 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16EE35AC2C86C99D4F2F251867870D69 /* LoginSheetComponent-dummy.m in Sources */,
-				9B283ABE30BC834027410E7B85FA8D74 /* ReplaceMe.swift in Sources */,
+				AD51F03D29C3387600310AD6 /* loginSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,18 +483,17 @@
 			baseConfigurationReference = 1F93C2BD485FD8498F1BA547832FC5E8 /* LoginSheetComponent.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 773U2QNPAW;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/LoginSheetComponent/LoginSheetComponent-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoginSheetComponent/LoginSheetComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LoginSheetComponent/LoginSheetComponent.modulemap";
 				PRODUCT_MODULE_NAME = LoginSheetComponent;
@@ -509,18 +513,17 @@
 			baseConfigurationReference = 857617CC73A5390E6D3BDC6382925A29 /* LoginSheetComponent.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 773U2QNPAW;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/LoginSheetComponent/LoginSheetComponent-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoginSheetComponent/LoginSheetComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LoginSheetComponent/LoginSheetComponent.modulemap";
 				PRODUCT_MODULE_NAME = LoginSheetComponent;
@@ -625,8 +628,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
